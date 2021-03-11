@@ -1,0 +1,101 @@
+/*
+.pk {
+  color: black;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px 5px 0px 5px;
+}
+
+h1 {
+  font-size: 18px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 400;
+  background-color: #f25287;
+}
+
+.buscar {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-bottom: 2px;
+}
+#cajabuscador {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 30px;
+}
+.buscar {
+  width: 70%;
+}
+.buton:hover {
+  color: ghostwhite;
+}
+.buton {
+  width: 25%;
+  background-color: #f25287;
+  border: 0px;
+  cursor: pointer;
+}
+h3 {
+  text-align: center;
+  font-weight: 100;
+}
+.contenedor {
+  min-height: calc(100vh - 159px);
+  width: 85%;
+  margin-left: 7.5%;
+  
+} 
+
+.contenedor1 {
+  height: 1%;
+  display: flex;
+  width: 200%;
+  justify-content: space;
+}
+p {
+  margin-top: 0px;
+}
+
+.barra1 {
+  background-color: #dddddd;
+  height: 750px;
+  width: 70%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+ 
+}
+
+.barra1-1 {
+  background-color: #f7d9d9;
+  height: 750px;
+  width: 30%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px;
+  
+}
+
+footer {
+  background-color: #f25287;
+  height: 40px;
+  margin-top: 34px;
+  margin-bottom: 0px;
+}
+
+footer p {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+*/

@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+}
+.pk {
+  color: black;
+  padding-bottom: 2%;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 18px;
+  border: 1px solid black;
+  padding:1%;
+  text-align: center;
+  font-weight: 400;
+  background-color: #2a7595;
+}
+
+.buscar {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-bottom: 2px;
+}
+#cajabuscador {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 30px;
+}
+.buscar {
+  width: 70%;
+}
+.buton:hover {
+  color: ghostwhite;
+}
+.buton {
+  width: 25%;
+  height: 30px;
+  background-color: #2a7595;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+h2 {
+  text-align: center;
+  font-weight: 100;
+  padding-top: 3%;
+}
+.contenedor {
+  min-height: calc(100vh - 420px);
+  width: 70%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding-top: 4%;
+}
+
+.contenedor1 {
+  height: 200px;
+  display: flex;
+  width: 100%;
+  justify-content: space;
+  border-bottom: 10px;
+}
+
+.barra1 {
+  background-color: #afcfce;
+  border: 4px solid #368979;
+  height: 100%;
+  width: 70%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#barra1-1 {
+  height: 100%;
+  width: 30%;
+  border: 4px solid #368979;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* pokemones por tipo*/
+.electric {
+  background-color: #FAFA72;
+}
+.normal {
+  background-color: white;
+}
+.bug {
+  background-color: #3C9950;
+}
+.dark {
+  background-color: #595978;
+}
+.dragon {
+  background-color: #61C9D8;
+}
+.fairy {
+  background-color: #E91368;
+}
+.fighting {
+  background-color: #EF6239;
+}
+.fire {
+  background-color: #FD4B5A;
+}
+.flying {
+  background-color: #94B2C7;
+}
+.ghost {
+  background-color: #94B2C7;
+}
+.grass {
+  background-color: #27CB50;
+}
+.ground {
+  background-color: #69461E;
+}
+.ice {
+  background-color: #85D1F4;
+}
+.poison {
+  background-color: #9B69DA;
+}
+.psychic {
+  background-color: #F71D92;
+}
+.rock {
+  background-color: #8B3E22;
+}
+.steel {
+  background-color: #43BC93;
+}
+.water {
+  background-color: #85A8FB;
+}
+.p {
+  padding-top: 5%;
+}
+.gif{
+  image-orientation: 10%;
+}
+.imgpk{
+  padding-top: 2%;
+ display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+height: 30%;
+}
+
+footer {
+  background-color: #2a7595;
+  height: 40px;
+  padding: 1%;
+  position: fixed;
+  z-index: 2000;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.inline {
+  display: inline;
+}

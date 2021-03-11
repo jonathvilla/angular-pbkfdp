@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="Styles.css" />
+  <title>Pokemones </title>
+</head>
+
+<body>
+  <header>
+    <p class="pk">Mis pokemones</p>
+    <h1>¿QUE TIPO ES TU POKEMON?</h1>
+  </header>
+
+  <div id="cajabuscador">
+    <input type="text" name="nombre" [(ngModel)]="nombre" placeholder="Nombre Del Pokemon" class="buscar" >
+    <input type="submit" name="BUSCAR" (click)="getPokemon()" value="BUSCAR" class="buton">
+  </div>
+
+  <h2>Mis Resultados</h2>
+
+  <div class="contenedor">
+    <div class="contenedor1" *ngIf="movimientos != ''">
+      <div class="barra1">
+        <img src="{{Model.imagenes.back_default}}">
+        <img src="{{Model.imagenes.back_female}}">
+        <img src="{{Model.imagenes.back_shiny}}">
+        <img src="{{Model.imagenes.front_female}}">
+        <img src="{{Model.imagenes.front_default}}">
+        <img src="{{Model.imagenes.front_femalet}}">
+        <img src="{{Model.imagenes.front_shiny}}">
+      </div>
+
+      <div class = "{{Model.tipo}}" id="barra1-1">
+        <p class="p"><b>NOMBRE: </b>{{Model.nombre}}</p>
+        <p class="p"><b>TIPO: </b>{{Model.tipo}}</p>
+        <p class="p"><b>MOVIMIENTOS: </b></p>
+        <p class="inline" *ngFor="let movimiento of movimientos">{{movimiento.move.name}},</p>
+      </div>      
+
+    </div>
+    <div class="gif">
+       <img class="imgpk" src="https://media1.tenor.com/images/c59e7bfa31590e3f9eb4925639ddeb88/tenor.gif?itemid=7283217"/>
+    </div>
+     
+  </div>
+
+  <footer>
+    <p>Diseñado por Jonath Mercado @2021</p>
+  </footer>
+
+</body>
+
+</html>
